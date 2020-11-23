@@ -1,0 +1,377 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif; /* eklendi artık tüm text elementlerine uygulanıyor */
+}
+
+div#sayfa {
+  width: 100%;
+  min-height: 100vh; /* düzenlendi */
+  background-image: url(ekmekresmi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.ekmekresmi {
+  margin-left: 10rem;
+  padding-top: 10rem;
+}
+
+div#sayfa .ekmekresmi h1 {
+  font-size: 5rem; /* eklendi */
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 15%; /* eklendi */
+}
+
+div#sayfa .ekmekresmi h2 {
+  font-weight: 400;
+  font-size: 8.2rem;
+  line-height: 8.5rem;
+  margin-top: 4rem;
+  margin-left: 15%; /* eklendi */
+  color: rgb(255, 255, 255);
+}
+
+div#sayfa .ekmekresmi p {
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-left: 15%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.buton {
+  /* font-family silindi */
+  background-color: rgba(255, 180, 0, 1);
+  padding: 1rem 2rem; /* düzenlendi */
+  border: none;
+  color: black;
+  height: 4rem; /* eklendi */
+  width: 20rem; /* eklendi */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1.75rem; /* düzenlendi */
+  font-weight: bold;
+  line-height: 2rem;
+  font-style: normal;
+  margin-top: 4rem;
+  margin-left: 15%; /* eklendi */
+}
+/* offerbox */
+div.offerbox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+div.offerboxtext {
+  display: flex;
+  width: 63rem;
+  height: 25rem;
+  background: #ffffff;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-self: center;
+}
+div.offerboxtext h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  display: inline;
+  color: black;
+  text-align: center;
+}
+div.offerboxtext p {
+  display: inline;
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+div.offerboxitems {
+  display: flex;
+  width: 100rem;
+  min-height: 25vw;
+  background: #ffffff;
+  align-self: center;
+  justify-content: space-evenly;
+}
+div.offerboxitems .offerboxitem {
+  display: flex;
+  width: 25rem;
+  height: 40rem;
+  background: #ffffff;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.offerboxitems .offerboxitem .milk {
+  display: flex;
+  background-image: url(benefit1.png);
+  width: 6rem;
+  height: 8rem;
+  margin-left: 39%;
+  background-repeat: no-repeat;
+}
+div.offerboxitems .offerboxitem h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+  display: inline;
+  color: rgb(21, 47, 46);
+  text-align: center;
+}
+div.offerboxitems .offerboxitem p {
+  display: inline;
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+div.offerboxitems .offerboxitem .basket {
+  display: flex;
+  background-image: url(benefit2.png);
+  width: 6rem;
+  height: 8rem;
+  margin-left: 35%;
+  background-repeat: no-repeat;
+}
+
+div.offerboxitems .offerboxitem .transport {
+  display: flex;
+  background-image: url(benefit3.png);
+  width: 11rem;
+  height: 7rem;
+  background-repeat: no-repeat;
+  margin-left: 25%;
+}
+
+div.siyahduvar {
+  background-image: url(siyahduvar.png);
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+  padding-top: -10rem;
+}
+
+div.siyahduvar .siyahduvarüst {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10rem;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+div.siyahduvar .siyahduvarüst * {
+  margin-bottom: 3rem;
+}
+
+div.siyahduvar .siyahduvarüst h2 {
+  color: rgba(255, 180, 0);
+  font-size: 7.2rem;
+  font-family: serif;
+  font-weight: bolder;
+}
+div.siyahduvar .siyahduvarüst h3 {
+  margin-top: -2rem;
+}
+
+div.siyahduvar .siyahduvarüst p {
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
+
+div.siyahduvar .siyahduvarüst img#adam {
+  margin-top: 3rem;
+}
+
+div.siyahduvar .siyahduvarüst img#yıldız {
+  margin-top: -2rem;
+}
+
+div#flex-container {
+  width: 100%;
+  min-height: 72vh;
+  display: flex;
+  background-color: rgba(245, 245, 245, 1);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+div#flex-container > div {
+  background-color: white;
+  margin: 0.7rem;
+  margin-top: 120px;
+  margin-right: 3rem;
+  font-size: 10px;
+  width: 30rem;
+  height: 16rem;
+  border-style: none;
+}
+
+div#flex-container h1 {
+  font-size: 2rem;
+  line-height: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(21, 47, 46);
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px;
+}
+
+div#flex-container p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  color: rgb(27, 47, 46);
+}
+
+div#flex-container2 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div#flex-container2 > div {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0rem;
+  margin-top: 12rem;
+  width: 51rem;
+  height: 50rem;
+  border-style: none;
+  padding-left: 6rem;
+  padding-top: 2rem;
+}
+
+div#flex-container2 h1 {
+  font-size: 4.8rem;
+  line-height: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(21, 47, 46);
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  left: 100px;
+}
+
+div#flex-container2 p {
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-family: "PT Serif";
+  color: rgb(48, 48, 48);
+  font-style: normal;
+  font-weight: 400;
+}
+.grid-container {
+  display: grid;
+  min-height: 70vh;
+  align-content: start;
+  grid-template-columns: auto;
+  grid-template:
+    "1"
+    "2"
+    "3";
+  grid-gap: 10px;
+  background-image: url(beyazduvar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 19em;
+  min-height: 10rem;
+}
+.grid-container .grid-item h1 {
+  font-size: 64px;
+  line-height: 70px;
+  color: rgb(48, 48, 48);
+  font-weight: 400;
+}
+.grid-container .grid-item p {
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "PT Serif";
+  color: rgb(48, 48, 48);
+  font-weight: 400;
+}
+.grid-container .grid-item a {
+  margin: 0 !important;
+}
+.foter {
+  display: grid;
+  align-content: start;
+  grid-template-columns: auto;
+  grid-template: "1 2";
+  grid-gap: 32%;
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(48, 48, 48);
+  justify-content: center;
+  align-content: center;
+}
+.foter h1 {
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 15%;
+  align-self: center;
+}
+.foter p {
+  align-self: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 400;
+}
